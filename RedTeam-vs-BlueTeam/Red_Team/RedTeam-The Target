@@ -1,0 +1,10 @@
+## Recon: Describing The Target
+
+Nmap identified the following hosts on the network.
+
+| Hostname  | IP Address   | Role on Network  |
+|-----------|--------------|------------------|
+| ELK Sever | 192.168.1.100| Holds the Kibana GUI used to analyze the network activity (SIEM)|
+| Kali      | 192.168.1.90 | The attacker machine initiating the malicious activity |
+| Capstone  | 192.168.1.105| Capture all network log activity via Filebeat & Metricbeat |
+| TArget Server | 192.168.1.1 | Apache server that exposes the vulnerable wordpress server (NAT Switch) |
